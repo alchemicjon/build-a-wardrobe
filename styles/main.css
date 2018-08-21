@@ -33,22 +33,10 @@ body {
 
 /* ======================= END BROWSER RESET ======================= */
 
-html.index{
-	background-image: url("../images/skyline.jpg"), linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
-	background-blend-mode: overlay;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
-}
 
 
-html.defaultBackground {
-	background: rgba(0,0,0,0.8);
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-	background-position: center;
+body {
+	background-color: #faf7dc;
 }
 
 
@@ -56,8 +44,12 @@ html.defaultBackground {
   list-style-type: none;
   margin: 0;
   padding-top: 4%;
+	padding-bottom: 4%;
 	padding-right: 20px;
 	text-align: right;
+	background-color: #264115;
+	position: fixed;
+	width: 100%;
 
 }
 
@@ -86,6 +78,13 @@ li a:hover {
 		font-weight: 400;
 }
 
+#closetPic{
+	max-width: 100%;
+	margin-top: 8%;
+	position: relative;
+}
+
+
 .mainContent {
 	margin-left: auto;
 	margin-right: auto;
@@ -94,42 +93,29 @@ li a:hover {
 
 }
 
-h1, h2, h3, h4, h5, h6, #navBar a {
-    font-family:"Montserrat", Verdana, Tahoma, Helvetica, sans-serif;
+h3, h4, h5, h6, #navBar a {
+    font-family:"Asap", Verdana, Tahoma, Helvetica, sans-serif;
 		color: #bbb7a5;
 		max-width: 700px;
-		margin: 0 auto 0 auto
+		margin: 0 auto 0 auto;
 
 
 }
-
 
 
 h1, h2 {
-	padding-top: 23%;
-	padding-bottom: 1.5em;
-  line-height: 2em;
-	font-size: 3.5em;
+	color: #264115;
+	font-family:"Asap", Verdana, Tahoma, Helvetica, sans-serif;
+	margin: 0 auto 1.5em auto;
+	/* padding-top: 15%; */
+  line-height: 1.5em;
+	font-size: 4em;
 	font-weight: 200;
 	text-align: center;
 	max-width: 700px;
-	margin: 0 auto 0 auto
+	border-bottom: 2px solid #264115;
 }
 
-
-
-
-h3{
-	font-size: 1.5em;
-	line-height: 1.5em;
-}
-
-.date{
-	color: #616161;
-	font-weight: 400;
-	font-style: italic;
-	font-size: .8em
-}
 
 
 p {
@@ -138,14 +124,9 @@ p {
 	text-align: left;
 	margin: 10px auto 10px auto;
 	max-width: 700px;
-	font-family: "Merriweather", Georgia, "Times New Roman", Times, serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
 	line-height: 1.5;
 	color: #bbb7a5;
-}
-
-#signature{
-	font-family: cursive;
-	text-align: right;
 }
