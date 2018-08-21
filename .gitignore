@@ -1,0 +1,5 @@
+*.gem
+.DS_Store
+*.rbc
+/.config
+*.swp
